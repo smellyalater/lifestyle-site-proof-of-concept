@@ -1,0 +1,35 @@
+body {
+	margin:0 1em 1em 1em;
+}
+
+.navbar {
+	background: #88769a
+}
+
+.carousel-item img {
+	width: 100%;
+}
+
+/* .#navigation-tabs {
+	padding: .2rem;
+} */
+
+.nav-tabs {
+	/* margin: 0 4em; */
+	border: none;
+}
+
+.nav-tabs .nav-link {
+	padding: .2rem;
+	border-bottom: none;
+}
+
+
+
+
+li.nav-item {
+	border: 1px solid #0275d8;
+	margin: .1rem;
+	border-radius: .3rem;
+	font-size: .9rem;
+}
