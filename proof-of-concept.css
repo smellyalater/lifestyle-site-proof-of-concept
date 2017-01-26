@@ -1,3 +1,8 @@
+#hero-container .jumbotron {
+	background-image: url('images/beachHorizon.jpg');
+	background-size: cover;
+}
+
 .navbar {
 	background: #88769a
 }
@@ -24,32 +29,22 @@
 	border-radius: .3rem;
 	font-size: .9rem;
 }
-.card-text {
-}
-.home-design-container {
+
+.image-group {
 	display: flex;
 	flex-direction: row;
-	width: 1000px;
+	/* width: 1000px; */
 	overflow-x: scroll;
 	white-space: nowrap;
 	justify-content: space-between;
+	border: 1px solid red;
 }
-.home-design-container .card {
-	margin: .5rem;
+.image-group .card {
+	margin: .2rem;
 	border: none;
-	/* width: 10rem; */
 	white-space: normal;
 }
-.card-img-overlay .card-title {
 
-	/* border: 1px solid red; */
-	position: absolute;
-	top: 122px;
-	left: 0;
-	background-color: rgba(0, 0, 0, 0.3);
-	width: 100%;
-	padding: 1rem;
-}
 .card-img-overlay {
 	position: absolute;	/* top: 9rem; */
 
@@ -65,4 +60,24 @@ img.card-img-top {
 
 .tab-content-copy {
 	margin: 1rem;
+}
+
+.image-and-video-container .card-img-top {
+	width: 17rem;
+	height: auto;
+}
+
+.enlarged-image {
+		width: 100%;
+	height: auto;
+}
+
+.enlarged-image-container {
+
+	margin: .5rem;
+}
+
+.form-group #exampleTextarea {
+	margin: 0 auto;
+	width: 21.5rem;
 }
