@@ -1,11 +1,6 @@
-body {
-	margin:0 1em 1em 1em;
-}
-
 .navbar {
 	background: #88769a
 }
-
 .carousel-item img {
 	width: 100%;
 }
@@ -13,23 +8,61 @@ body {
 /* .#navigation-tabs {
 	padding: .2rem;
 } */
-
 .nav-tabs {
+
 	/* margin: 0 4em; */
 	border: none;
+	padding: .5rem;
 }
-
 .nav-tabs .nav-link {
 	padding: .2rem;
 	border-bottom: none;
 }
-
-
-
-
-li.nav-item {
+.nav-tabs .nav-item {
 	border: 1px solid #0275d8;
 	margin: .1rem;
 	border-radius: .3rem;
 	font-size: .9rem;
+}
+.card-text {
+}
+.home-design-container {
+	display: flex;
+	flex-direction: row;
+	width: 1000px;
+	overflow-x: scroll;
+	white-space: nowrap;
+	justify-content: space-between;
+}
+.home-design-container .card {
+	margin: .5rem;
+	border: none;
+	/* width: 10rem; */
+	white-space: normal;
+}
+.card-img-overlay .card-title {
+
+	/* border: 1px solid red; */
+	position: absolute;
+	top: 122px;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	padding: 1rem;
+}
+.card-img-overlay {
+	position: absolute;	/* top: 9rem; */
+
+	/* left: 1rem; */
+}
+img.card-img-top {
+	border-radius: 0;
+}
+
+.card-block .btn {
+	padding-left: 0;
+}
+
+.tab-content-copy {
+	margin: 1rem;
 }
