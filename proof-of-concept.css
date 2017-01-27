@@ -33,6 +33,20 @@
 	font-size: .8rem;
 }
 
+.home-design-container .card-img-top {
+	width: 320px;
+	height: auto;
+}
+
+.button-container {
+	display: flex;
+	justify-content: flex-start;
+}
+
+/*.button-container button {
+	margin: 0 1rem;
+}*/
+
 .image-group {
 	display: flex;
 	flex-direction: row;
@@ -57,9 +71,9 @@ img.card-img-top {
 	border-radius: 0;
 }
 
-.card-block .btn {
+/*.card-block .btn {
 	padding-left: 0;
-}
+}*/
 
 .tab-content-copy {
 	margin: 1rem;
@@ -83,4 +97,8 @@ img.card-img-top {
 .form-group #exampleTextarea {
 	margin: 0 auto;
 	width: 21.5rem;
+}
+
+.carousel-item {
+	height: 300px;
 }
